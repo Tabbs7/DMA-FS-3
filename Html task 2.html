@@ -7,43 +7,46 @@
 </head>
 <body>
     
-<!-- <form method="post">
+<form method="post">
     <label for="">
         <h1>My feedback form</h1>
         <ul>
             <li>
-                <label for="">Name:</label>
-                <input type="text">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
             </li>
+            <br>
             <li>
-                <label for="">Email:</label>
-                <input type="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
             </li>
+            <br>
             <li>
-                <label for="">Password:</label>
-                <input type="password" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
             </li>
             <br>
             <li>
                 <label for="">Please check all the emotions that apply to you:</label>
                 <ul type="disc">
                     <li>
-                        <label for="Angry">Angry</label>
-                        <input type="checkbox">
+                        <label for="angry">Angry</label>
+                        <input type="checkbox" name="emotion" id="angry">
                     </li>
                     <li>
-                        <label for="">Saed</label>
-                        <input type="checkbox">
+                        <label for="sad">Sad</label>
+                        <input type="checkbox" name="emotion" id="sad">
                     </li>
                     <li>
-                        <label for="">Happy</label>
-                        <input type="checkbox">
+                        <label for="happy">Happy</label>
+                        <input type="checkbox" name="emotion" id="happy">
                     </li>
                     <li>
-                        <label for="">Ambivalent</label>
-                        <input type="checkbox">
+                        <label for="ambi">Ambivalent</label>
+                        <input type="checkbox" name="emotion" id="ambi">
                     </li>
                 </ul>
+                <br>
         
             </li>
             <li>
@@ -71,25 +74,31 @@
                     </li>
                 </ul>
             </li>
+            <br>
             <li>
+                
+
                 <label for="">Further comments:</label>
                 <textarea name="" id="" cols="25" rows="2"></textarea>    
             </li>
+            <br>
             <li>
-                <label for="">Bio photo:</label>
-                <input type="text">
+                <label for="bio">Bio photo:</label>
+                <input type="text" name="bio photo" id="bio">
                 <input type="file" accept="image/*"> 
             </li>
+            <br>
             <li>
                 <span>Location visited</span>
                 <select name="" id="">
-                    <option value="">Baku</option>
-                    <option value="">Ganga</option>
-                    <option value="">Guba</option>
-                    <option value="">Lenkaran</option>
+                    <option value="0">Baku</option>
+                    <option value="1">Ganga</option>
+                    <option value="2">Guba</option>
+                    <option value="3">Lenkaran</option>
 
                 </select>
             </li>
+            <br>
             
         </ul>
         <li>
@@ -97,28 +106,29 @@
         </li>
     </label>
 
-</form> -->
+</form>
+<br>
 
-<!-- <form> 
+<form method="post"> 
     <fieldset>
         <legend>Personal Details</legend>
         <span>Situation</span>
         <br>
         <select name="" id="">
-            <option value="">--None--</option>
-            <option value="">--None--</option>
-            <option value="">--None--</option>
-            <option value="">--None--</option>
+            <option value="0">--None--</option>
+            <option value="1">--None--</option>
+            <option value="2">--None--</option>
+            <option value="3">--None--</option>
             <br>
         </select>
         <br>
         <br>
-        <label for="">First name:</label>
-        <input type="text" name="" id="">
+        <label for="ad">First name:</label>
+        <input type="text" id="ad">
         <br>
         <br>
-        <label for="">Last name:</label>
-        <input type="text" name="" id="">
+        <label for="soyad">Last name:</label>
+        <input type="text" id="soyad">
         <br>
         <br>
 
@@ -130,12 +140,12 @@
         <label for="female">Female</label>
         <br>
         <br>
-        <label for="">Email:</label>
-        <input type="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
         <br>
         <br>
-        <label for="">Date of Birth:</label>
-        <input type="date" required>
+        <label for="birth">Date of Birth:</label>
+        <input type="date" id="birth">
         <br>
         <br>
         <span>Adress:</span>
@@ -148,9 +158,10 @@
     
 
     </fieldset>
-</form> -->
+</form>
+<br>
 
-<!-- <table border="1" width="30%" cellpadding="15">
+<table border="1" width="50%" cellpadding="15" rules="all">
     <thead>
         <tr>
             <th rowspan="2">№</th>
@@ -200,14 +211,17 @@
             <td></td>              
         </tr>
     </tbody>
-</table> -->
+</table>
+<br>
 
-<!-- <video width="320" height="250" autoplay muted loop>
+<video width="320" height="250" autoplay muted loop controls controlsList="nodownload nofullscreen" oncontextmenu="return false;">
     <source src="../Video/vid1.mp4" type="video/mp4">
-</video> -->
+</video>
+<br>
+<br>
 
 
-<!-- <table border="1">
+<table border="1">
     <thead>
         <th bgcolor="yellow" colspan="5">
             My Multi Level Table
@@ -244,9 +258,10 @@
         </tr>
     </tbody>
 </table>
- -->
+<br>
 
- <!-- <table border="1" bgcolor="yellow">
+
+ <table border="1" bgcolor="yellow" rules="all">
     <thead>
         <th colspan="4">
             <i>A test table with merged cells</i>
@@ -254,7 +269,7 @@
         <tr>
             <th rowspan="2"></th>
             <th colspan="2">Avarege</th>
-            <th rowspan="2">Red Eyes</th>
+            <th rowspan="2">Red <br> Eyes</th>
         </tr>
         <tr>
             <th>height</th>
@@ -275,10 +290,11 @@
             <td>43%</td>
         </tr>
     </tbody>
- </table>
- -->
+</table>
+ <br>
+
         
-<!-- <ol>
+<ol>
     <li>Home Page 1</li>
     <li>Home Page 2</li>
     <ol type="I">
@@ -305,82 +321,92 @@
     <li>Home Page 3</li>
     <li>Home Page 4</li>
     <li>Home Page 5</li>
-</ol> -->
-
-<!-- <h3>Comlex Form</h3>
-<form>
-    <fieldset>
-        <legend>Personal information</legend>
-
-            <label for="">Name:</label>
-            <input type="text">
-        <br>
-        <br>
-            <label for="">Email:</label>
-            <input type="email" required>
-        <br>
-        <br>
-            <label for="">Phone:</label>
-            <input type="number" required>
-        <br>
-        <br>
-        <label for="">Date of Birth</label>
-        <input type="date" required>
-        <br>
-        <br>
-        <span>Gender:</span>
-
-        <input type="radio" name="gender" id="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female">
-        <label for="female">Female</label>
-        <br>
-        <br>
-        <span>Country</span>
-                <select name="" id="">
-                    <option value="">Azerbaycan</option>
-                    <option value="">India</option>
-                    <option value="">france</option>
-                    <option value="">USA</option>
-
-                </select>
-
-    </fieldset>
-</form>
+</ol>
 <br>
-<form>
-    <fieldset>
-        <legend>Adress</legend>
 
-            <label for="">Street:</label>
-            <input type="text">
-        <br>
-        <br>
-            <label for="">City:</label>
-            <input type="text">
-        <br>
-        <br>
-            <label for="">State:</label>
-            <input type="text">
-        <br>
-        <br>
-            <label for="">Zip Code:</label>
-            <input type="number">
+
+<h3>Complex Form</h3>
+<form method="post">
+    <table>
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
         
-    </fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                <br>
+                <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                <br>
+                <br>
+                    <label for="Phone">Phone:</label>
+                    <input type="number" id="Phone">
+                <br>
+                <br>
+                <label for="birth">Date of Birth</label>
+                <input type="date" id="birth">
+                <br>
+                <br>
+                <span>Gender:</span>
+        
+                <input type="radio" name="cins" id="kisi">
+                <label for="kisi">Kishi</label>
+                <input type="radio" name="cins" id="qadin">
+                <label for="qadin">Qadin</label>
+                <br>
+                <br>
+                <span>Country</span>
+                        <select name="" id="">
+                            <option value="0">Azerbaycan</option>
+                            <option value="1">India</option>
+                            <option value="2">france</option>
+                            <option value="3">USA</option>
+        
+                        </select>
+        
+            </fieldset>
+        </form>
+    
+    <br>
+    <form>
+        <fieldset>
+            <legend>Adress</legend>
+    
+                <label for="street">Street:</label>
+                <input type="text" id="street">
+            <br>
+            <br>
+                <label for="city">City:</label>
+                <input type="text" id="city">
+            <br>
+            <br>
+                <label for="state">State:</label>
+                <input type="text" id="stade">
+            <br>
+            <br>
+                <label for="zip">Zip Code:</label>
+                <input type="number" id="zip">
+            
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Other Information</legend>
+                    <label for="">Comments:</label>
+                    <textarea name="" id="" cols="25" rows="2"></textarea>  
+                            <label for="agree">I agree to the term of service</label>
+                            <input type="checkbox" id="agree">
+        </fieldset>
+    </form>
+    <br>
+        <input type="submit">
+    </table>
 </form>
+<br> 
 <br>
-<form>
-    <fieldset>
-        <legend>Other Information</legend>
-                <label for="">Comments:</label>
-                <textarea name="" id="" cols="25" rows="2"></textarea>  
-                        <label for="">I agree to the term of service</label>
-                        <input type="checkbox">
-    </fieldset>
-<br>
-    <input type="submit">
-</form> -->
+
 
 <ol>
     <li>Milk</li>
@@ -410,6 +436,157 @@
     </ol>
 
 </ol>
+
+<br>
+
+<h1>Welcome to Camping Adventures</h1>
+<p>Experience the beauty of nature!</p>
+<p>Embark on good day falan filan</p>
+<img src="../Image/pic1.jpg" width="450px" height="300" title="Camping" alt="Adventures Camping" >
+<br><h3>Popular Camping Destinations</h3>
+<ol>
+    <li>Mountain wildless</li>
+    <li>Lakeside retreat</li>
+    <li> Coastal Camping Paradise</li>
+</ol>
+<h4>Upcoming Vamping Event</h4>
+<ul>
+    <li>Forest Camping Paradise</li>
+    <li type="none">Dates: Augus 20th</li>
+</ul>
+<h5>Testimonials</h5>
+<h6>Sarah Smith</h6>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum rem et vero a, enim praesentium dolor alias aspernatur laudantium voluptas magnam iure iusto nemo aperiam! Optio repudiandae fugit modi.</P>
+<a href="https://www.google.ru/?hl=ru" target="_blank">Book Your Campore Trip</a>
+<br>
+<br>
+<br>
+
+<select name="" id="">
+    <optgroup label="USA">
+        <option value="">Alabama</option>
+        <option value="">Alska</option>
+        <option value="">Arizona</option>
+    </optgroup>
+    <optgroup label="Canada">
+        <option value="">Alberta</option>
+        <option value="">British Columbia</option>
+        <option value="">Manitoba</option>
+    </optgroup>
+</select>
+<br>
+<br>
+<br>
+
+<table border="1" width="50%">
+    <thead>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00</td>
+            <td rowspan="2">5:00</td>
+            <td>Introduction</td>
+        </tr>
+        <tr>
+            <td>Validity DTD</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00</td>
+            <td>11:00</td>
+            <td>Xpath</td>
+        </tr>
+        <tr>
+            <td>11:00</td>
+            <td>2:00</td>
+            <td rowspan="2">XSL Transfor,</td>
+        </tr>
+        <tr>
+            <td>2:00</td>
+            <td>5:00</td>
+        </tr>
+        <tr>
+            <td>Wedensday</td>
+            <td>8:00</td>
+            <td>12:00</td>
+            <td>XLS Formating</td>
+        </tr>
+
+    </tbody>
+
+</table>
+<br>
+<br>
+
+
+<h1>About</h1>
+<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+<b>Quos sint nulla dolorem.</b> Accusantium cupiditate consectetur magni hic, 
+non voluptatum accusamus a tempore vel nihil ducimus modi totam voluptas 
+sint officiis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+<b>Quos sint nulla dolorem.</b>Accusantium cupiditate consectetur magni hic, 
+non voluptatum accusamus a tempore vel nihil ducimus modi totam voluptas 
+sint officiis. </span>
+<h1>Our Locations</h1>
+<ul>
+    <li><b>USA</b></li>
+    <ul type="circle">
+        <li>
+            <a href="https://www.google.ru/?hl=ru" target="_blank">New York</a>
+        </li>
+        <li>
+            <a href="https://www.google.ru/?hl=ru" target="_blank">Columbus</a>
+        </li>
+        <li>
+            <a href="https://www.google.ru/?hl=ru" target="_blank">Austin</a>
+        </li>
+        <li>
+            <a href="https://www.google.ru/?hl=ru" target="_blank">Philly</a>
+        </li>
+    </ul>
+    <li><b>World</b></li>
+    <ul type="circle">
+        <li>
+        <a href="https://www.google.ru/?hl=ru" target="_blank">Austin</a>
+        </li>
+        <li>
+            <a href="https://www.google.ru/?hl=ru" target="_blank">Philly</a>
+        </li>
+    </ul>
+</ul>
+
+<h1>Upcoming Classes</h1>
+<table border="1" width="40%">
+    <thead>
+        <tr>
+        <th>Location</th>
+        <th>Topic</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>New York</td>
+        <td>Java</td>
+        </tr>
+        <tr>
+        <td>Ottawa</td>
+        <td>Sydney</td>
+        </tr>
+    </tbody>
+</table>
 
 
 </body>
