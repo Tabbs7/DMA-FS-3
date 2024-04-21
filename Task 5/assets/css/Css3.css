@@ -439,6 +439,7 @@ h3{
 }
 
 #fix{
+    float: left;
     width: 40%;
     height: 80px;
     padding: 25px 25px;
@@ -448,6 +449,7 @@ h3{
     box-sizing: border-box;
     position: fixed;
     top: 5px;
+
 
 }
 
@@ -459,6 +461,7 @@ h3{
 }
 
 .sti{
+    float: left;
     width: 40%;
     height: 80px;
     padding: 25px 25px;
