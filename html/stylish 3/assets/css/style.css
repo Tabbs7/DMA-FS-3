@@ -421,6 +421,7 @@ color: #6c757d;
     text-align: center;
 }
 
+
 .meta3>a{
     width: 40px;
     height: 40px;
@@ -594,6 +595,7 @@ color: #6c757d;
     justify-content: space-around;
     margin: auto;
     padding-top: 30px;
+    
 }
 
 #id{
@@ -601,19 +603,24 @@ color: #6c757d;
     color: #212529;
 }
 
-.meta4>a{
+.meta4{
     width: 40px;
     height: 40px;
     background-color: #212529;
     border-radius: 50%;
+    padding-top: 10px;
+
+}
+
+.meta4>a{
     color: white;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 0px 8px 0px 8px;
-    position: relative;
+    
+}
+
+.meta4:hover{
+    background-color: #424649;
 }
 
 .metin7>a{

@@ -6,7 +6,7 @@
 }
 
 
-.container{
+/* .container{
       width: 100%;
       height: fit-content;
       display: flex;
@@ -21,4 +21,52 @@
 .card>img{
       width: 100%;
       height: 100%;
+} */
+
+
+
+.container{
+      width: 60%;
+      /* height: 600px; */
+      background-color: aqua;
+      margin: 15px auto;
+      display: grid;
+      gap: 10px;
+      grid-template-rows: repeat(4 ,200px); 
+      grid-template-columns: repeat(4,200px); 
+      grid-template-areas: "bir bir bir"
+                           " iki iki uc"
+                           " dord bes uc"
+                           "alti alti alti";
+      
+}
+
+.item{
+      background-color: blue;
+}
+
+.item:nth-child(1){
+      grid-area: bir;
+
+}
+.item:nth-child(2){
+      grid-area: iki;
+
+}
+.item:nth-child(3){
+      grid-area: uc;
+
+}
+.item:nth-child(4){
+      grid-area: dord;
+
+}
+
+.item:nth-child(5){
+      grid-area: bes;
+
+}
+.item:nth-child(6){
+      grid-area: alti;
+
 }
