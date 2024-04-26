@@ -1,72 +1,72 @@
-
-.section-container>h2{
-  font-size: 48px;
-  color: #2c3e50;
-padding-top: 50px;
-}
-
-.section-container>.icons>.row2{
-      width: 80px;
-      height: 5px;
-      background-color: #2c3e50;
-      font-size: 25px;
-      justify-content: space-between;
-  
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       
 }
-.section-container>.icons>.icon2{
-      font-size: 45px;
-   color: #2c3e50;
-   
-}
-.icons{
+
+
+/* .container{
       width: 100%;
-      height: 100px;
-      margin: auto;
-   display: flex;
-      gap: 20px;
-     align-items: center;
-      justify-content: center;
-}
-.section-container>.picture{
-      width: 100%;
-      height: 200px;
-      margin: auto;
+      height: fit-content;
       display: flex;
       flex-wrap: wrap;
-     
+
 }
+
+.card{
+      width: 33.333%;
+}
+
+.card>img{
+      width: 100%;
+      height: 100%;
+} */
+
+
+
+.container{
+      width: 60%;
+      /* height: 600px; */
+      background-color: aqua;
+      margin: 15px auto;
+      display: grid;
+      gap: 10px;
+      grid-template-rows: repeat(4 ,200px); 
+      grid-template-columns: repeat(4,200px); 
+      grid-template-areas: "bir bir bir"
+                           " iki iki uc"
+                           " dord bes uc"
+                           "alti alti alti";
+      
+}
+
 .item{
-      width: 31%;
-      height: 350px;
-      margin: 1px;
-      padding: 1px;
-      position: relative;
-      margin: auto;
-     
-    
+      background-color: blue;
 }
-.item>img{
-      width: 100%;
-      height:300px;
-       text-align: center;
-       border-radius: 10px;
-       z-index: -1;
+
+.item:nth-child(1){
+      grid-area: bir;
+
 }
-.item::before{
-      content: "+";
-      width: 100%;
-      height: 300px;
-      position: absolute;
-      background-color: rgb(26 188 156 / 90%);
-      opacity: 0;
-      font-size: 100px;
-      font-weight: bold;
-      color: white;
-      transition: 0.5s;
-      align-items: center;
-     line-height: 300px;
+.item:nth-child(2){
+      grid-area: iki;
+
 }
-.item:hover::before{
-      opacity: 0.8;
+.item:nth-child(3){
+      grid-area: uc;
+
+}
+.item:nth-child(4){
+      grid-area: dord;
+
+}
+
+.item:nth-child(5){
+      grid-area: bes;
+
+}
+.item:nth-child(6){
+      grid-area: alti;
+
 }

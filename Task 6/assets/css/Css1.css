@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 50px 50px;
+    background-color: rgb(192, 235, 220);
+    position: relative;
+    
+}
+
+.kub{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: kub;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    margin: 25px 25px;
+
+}
+
+@keyframes kub {
+    0%{
+        top: 0;
+        left: 0;
+        background-color: blue;
+        border-radius: 50%;
+    }
+    25%{
+        top: 0;
+        left: 320px;
+        background-color: red;
+        border-radius: 0%;
+    }
+    50%{
+        top: 320px;
+        left: 320px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    75%{
+        top: 320px;
+        left: 0px;
+        background-color: orange;
+        border-radius: 0%;
+    }
+    100%{
+        top: 0px;
+        right: 320px;
+        background-color: blue;
+        border-radius: 50%;
+
+    }
+
+
+
+}
