@@ -94,8 +94,11 @@ header{
     text-align: center;
     font-size: 25px;
     padding-top: 20px;
+}
 
- }
+.top:hover>a{
+    background-color: #d9aa00;
+}
 
 /* part second */
 
@@ -362,7 +365,7 @@ margin-bottom: 64px;
 
 .metin5{
     text-align: center;
-    margin-bottom: 65px;
+    padding-bottom: 200px;
 }
 
 .metin5 h2{
@@ -399,7 +402,7 @@ color: #6c757d;
     margin: auto;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
@@ -422,20 +425,36 @@ color: #6c757d;
 }
 
 
-.meta3>a{
+.meta3{
+    width: 25%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.meta31{
     width: 40px;
     height: 40px;
     background-color: #212529;
     border-radius: 50%;
+    padding-top: 10px;
+
+}
+
+.meta31>a{
     color: white;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 0px 8px 50px 8px;
-    position: relative;
+    
 }
+
+.meta31:hover{
+    background-color: #424649;
+}
+
+
 
 .metin6{
     width: 50%;
@@ -598,12 +617,19 @@ color: #6c757d;
     
 }
 
-#id{
+.foot>p{
     font-size: 14px;
     color: #212529;
 }
 
 .meta4{
+    width: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.meta5{
     width: 40px;
     height: 40px;
     background-color: #212529;
@@ -612,14 +638,14 @@ color: #6c757d;
 
 }
 
-.meta4>a{
+.meta5>a{
     color: white;
     text-decoration: none;
     font-size: 16px;
     
 }
 
-.meta4:hover{
+.meta5:hover{
     background-color: #424649;
 }
 
