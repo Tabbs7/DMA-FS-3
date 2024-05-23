@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+header{
+    height: auto;
+    min-height: 100vh;
+    padding-top: 310px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #212529;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/bg-masthead.jpg);
+}
+header>h1{
+    font-size: 88px;
+}
+header>h3{
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+header>a{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #1D809F;
+    border-radius: 4px;
+}
+header>a:hover{
+    background-color: #196d87;
+    transition: 0.5s;
+}
+nav{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    right: 15px;
+    top: 15px;
+    font-size: 24px;
+    background: rgba(52, 58, 64, 0.5);
+    color: white;
+    border-radius: 6px;
+}
+
+/* second part */
+
+.first{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    
+}
+
+.text1>h2{
+    height: 60px;
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+}
+
+.text1>p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 21px;
+
+}
+
+.btn2{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #000000;
+    border-radius: 4px;
+    margin-left: 750px;
+    
+}
+
+.btn2>a:hover{
+        background-color: #196d87;
+        transition: 0.5s;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/* third part */
+
+
+.second{
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+    background-color: #1D809F;
+    color: white;
+    padding: 70px;
+}
+
+.text2>h3{
+    font-size: 20px;
+    color: rgb(239, 160, 2);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text2>h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.third{
+    width: 80%;
+    margin: auto;
+
+}
+
+.card{
+    width: 25%;
+    margin: -2px;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+
+.card>h4{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card>.icon{
+    width: 40%;
+    height: 100px;
+    background-color: white;
+    color: #196d87;
+    font-size: 30px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* part four*/
+
+
+
+.four{
+    height: 700px;
+    padding-top: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #212529;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/bg-callout.jpg);
+}
+
+.four>h2{
+    font-size: 58px;
+    margin-bottom: 48px;
+}
+
+
+#btn3{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #1D809F;
+    border-radius: 4px;
+}
+
+#btn3:hover{
+        background-color: #196d87;
+        transition: 0.5s;
+}
+
+/* part five */
+
+.text3>h3{
+    font-size: 20px;
+    color: rgb(239, 160, 2);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.text3>h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.five{
+    width: 80%;
+    margin: auto;
+}
+
+.photo{
+    width: 50%;
+    display: inline-block;
+    margin: -6px;
+    height: 400px;
+    position: relative;
+    clip-path: inset(0px);
+    transition: 0.5s;
+}
+
+.photo:hover{
+    clip-path: inset(32px);
+}
+
+.photo:hover .overlay{
+    background-color: rgba(0, 110, 255, 0.573);
+}
+
+
+.photo>img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    transition: 0.5s;
+}
+
+.content{
+    position: absolute;
+    bottom: 80px;
+    color: white;
+}
+
+/* pardt six */
+
+.six{
+    width: 100%;
+    height: 350px;
+    background-color: #1D809F;
+}
+
+.six>h2{
+    height: 60px;
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: white;
+}
+
+.btn4{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 670px;
+    margin-top: 70px;
+}
+
+.btn5{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #000000;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+/* part seven */
+
+.seven{
+    width: 100%;
+    height: 250px;
+    padding: 80px 0;
+    background-color: white;
+    padding: 70px;
+    text-align: center;
+}
+
+.seven>p{
+    margin-top: 60px;
+    
+}
+
+.mets{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+.mets p{
+    padding-top: 20px;
+    
+}
+
+.oni{
+    width: 30%;
+    display: inline-block;
+    margin: -2px;
+    text-align: center;
+}
+
+.iko{
+    width: 80px;
+    height: 80px;
+    background-color:#1D809F ;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.iko a{
+    color: white;
+    font-size: 40px;
+    
+}
+
+.iko:hover{
+    background-color:#196d87;
+    transition: 0.5s;
+}
