@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Css1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <section>
+        <div class="container">
+            <input type="text" id="inn1">
+            <input type="text" id="inn2">
+            <button class="btn-one" onclick="calculate(this)">+</button>
+            <button class="btn-one" onclick="calculate(this)">-</button>
+            <button class="btn-one" onclick="calculate(this)">*</button>
+            <button class="btn-one" onclick="calculate(this)">/</button>
+            <p class="metin-one">Netice: <span></span></p>
+        </div>
+    </section> -->
+
+    <!-- <section>
+        <div class="container">
+        <input type="text" id="inn3" placeholder="Bir söz yazın...">
+        <button onclick="reverseText()" class="btn-two">Convert</button>
+        <p id="metin-two"></p>
+        </div>
+    </section> -->
+
+    <!-- <section>
+        <div class="container">
+            <input type="number" id="inputwidth" placeholder="width">
+            <input type="number" id="inputheight" placeholder="height">
+            <input type="number" id="inputborderWidth" placeholder="border width">
+            <br>
+            <br>
+            <select id="selectBorderStyle">
+                <option selected hidden>Border style</option>
+                <option>solid</option>
+                <option>dashed</option>
+                <option>dotted</option>
+            </select>
+            <select id="selectBorderColor">
+                <option selected hidden>Border color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectColor">
+                <option selected hidden>Color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectBackground">
+                <option selected hidden>BackGround color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <button onclick="changeDiv()">Ok</button>
+            <br>
+            <br>
+            <div id="div1"></div>
+        </div>
+    </section>
+        <div class="container">
+            <input type="number" id="inputwidth" placeholder="width">
+            <input type="number" id="inputheight" placeholder="height">
+            <input type="number" id="inputborderWidth" placeholder="border width">
+            <br>
+            <br>
+            <select id="selectBorderStyle">
+                <option selected hidden>Border style</option>
+                <option>solid</option>
+                <option>dashed</option>
+                <option>dotted</option>
+            </select>
+            <select id="selectBorderColor">
+                <option selected hidden>Border color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectBorderStyle">
+                <option selected hidden>Color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectBorderStyle">
+                <option selected hidden>BackGround color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <button onclick="changeDiv()">Ok</button>
+            <br>
+            <br>
+            <div id="div1"></div>
+        </div>
+    </section> --> 
+
+    <!-- <section>
+        <div class="container">
+            <input type="number" id="inputwidth" placeholder="width">
+            <input type="number" id="inputheight" placeholder="height">
+            <input type="number" id="inputborderWidth" placeholder="border width">
+            <br>
+            <br>
+            <select id="selectBorderStyle">
+                <option selected hidden>Border style</option>
+                <option>solid</option>
+                <option>dashed</option>
+                <option>dotted</option>
+            </select>
+            <select id="selectBorderColor">
+                <option selected hidden>Border color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectColor">
+                <option selected hidden>Color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <select id="selectBackground">
+                <option selected hidden>BackGround color</option>
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>yellow</option>
+            </select>
+            <button onclick="changeDiv()">Ok</button>
+            <br>
+            <br>
+            <div id="div1"></div>
+        </div>
+    </section> -->
+
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="displayInput" disabled placeholder="0">
+        <div class="calculator-keys">
+          <button onclick="buttonKal(this)" class="operator">+</button>
+          <button onclick="buttonKal(this)" class="operator">-</button>
+          <button onclick="buttonKal(this)" class="operator">*</button>
+          <button onclick="buttonKal(this)" class="operator">/</button>
+
+      
+          <button onclick="buttonKal(this)">7</button>
+          <button onclick="buttonKal(this)">8</button>
+          <button onclick="buttonKal(this)">9</button>
+          <button onclick="sil()" class="all-clear"><==</button>
+
+      
+      
+          <button onclick="buttonKal(this)">4</button>
+          <button onclick="buttonKal(this)">5</button>
+          <button onclick="buttonKal(this)">6</button>
+      
+      
+          <button onclick="buttonKal(this)">1</button>
+          <button onclick="buttonKal(this)">2</button>
+          <button onclick="buttonKal(this)">3</button>
+      
+      
+          <button onclick="buttonKal(this)">0</button>
+          <button onclick="buttonKal(this)" class="decimal">.</button>
+          <button onclick="sil()" class="all-clear">AC</button>
+
+      
+          <button onclick="equal()" class="equal-sign">=</button>
+      
+        </div>
+      </div>
+
+
+    <!-- <section>
+        <div class="four">
+            <div class="content1">
+                <div class="item1">
+                    <img src="assets/img/portfolio/1.jpg" alt="portfolio1" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Threads</h4>
+                    <p>Illustration</p>
+                </div>
+            </div>
+            <div>
+                <div class="item1">
+                    <img src="assets/img/portfolio/2.jpg" alt="portfolio2" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Explore</h4>
+                    <p>Graphic Design</p>
+                </div>
+            </div>
+            <div>
+                <div class="item1">
+                    <img src="assets/img/portfolio/3.jpg" alt="portfolio3" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Finish</h4>
+                    <p>Identity</p>
+                </div>
+            </div>
+            <div>
+                <div class="item1">
+                    <img src="assets/img/portfolio/4.jpg" alt="portfolio4" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Liness</h4>
+                    <p>Branding</p>
+                </div>
+            </div>
+            <div>
+                <div class="item1">
+                    <img src="assets/img/portfolio/5.jpg" alt="portfolio5" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Southwest</h4>
+                    <p>Website Design</p>
+                </div>
+            </div>
+            <div>
+                <div class="item1">
+                    <img src="assets/img/portfolio/6.jpg" alt="portfolio6" />
+                </div>
+    
+                <div class="metin3">
+                    <h4>Window</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+       -->
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
