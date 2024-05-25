@@ -79,13 +79,33 @@ html{
 /* Dom three + Dom four */
 
 
+.int{
+  width: 25%;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.opt{
+  width: 15%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.btn{
+  width: 5%;
+  height: 40px;
+}
+
 #div1{
     width: 100px;
     height: 100px;
     border: 2px solid;
 }
 
-/* Dom six */
+
+
+/* Dom five */
 
 
 html {
@@ -93,11 +113,6 @@ html {
     box-sizing: border-box;
   }
   
-  *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
 
 .calculator {
     border: 1px solid #ccc;
@@ -107,6 +122,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 
@@ -233,19 +250,19 @@ html {
     border-color: #337cac;
     color: #fff;
     height: 100%;
-    grid-area: 2 / 4 / 6 / 5;
+    grid-area: 3 / 4 / 6 / 5;
   }
 
 
-  /* Dom seven */
+  /* Dom six */
 
   .four{
-    width: 80%;
+    width: 90%;
     height: 900px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     
 }
@@ -292,4 +309,152 @@ html {
 .item1:hover::before{
     opacity: 0.8;
     text-align: center;
+}
+
+
+.mymodal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67,66,66,0.5);
+  position: fixed;
+  z-index: 10;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.modal{
+  width: 97%;
+  height: 100%;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 0.4rem;
+  border: 1px solid darkgrey;
+  box-shadow: 2px 2px 3px black,
+  -2px -2px 3px black;
+  animation: modal 0.5s ease-out 1;
+  position: relative;
+}
+
+.close-modal{
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
+  color: darkgray;
+  font-size: 40px;
+}
+
+.image{
+  width: 550px;
+  margin: 20px auto;
+  height: 450px;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content{
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 17px;
+}
+
+.content p{
+  color: black;
+  font-weight: 600;
+}
+
+.content p span{
+  font-weight: 400;
+}
+
+.content p:nth-child(1){
+  line-height: 30px;
+  color: rgba(67,66,66,0.7);
+  padding-bottom: 30px;
+}
+
+.content button{
+  width: 300px;
+  height: 80px;
+  background-color: #ffc800;
+  border: none;
+  padding: 20px 0;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+@keyframes modal{
+  from{
+    top:  -200px;
+  }
+  to{
+    top: 0px;
+  }
+}
+@keyframes modal1{
+  from{
+    top:  0px;
+  }
+  to{
+    top: -200px;
+  }
+}
+
+
+/* Dom seven */
+
+
+
+body{
+    padding: 15px;
+}
+    .accordion-lists ul {
+    list-style: none;
+    font-weight: 700;
+    max-height: 17px;
+    /* max-height: 40px; */
+    padding: 5px;
+    /* background-color: darkgray; */
+    overflow-y: hidden;
+    cursor: pointer;
+    transition: all .5s linear;
+    margin-bottom: 5px;
+
+}
+ul li:first-of-type{
+    /* background-color: aquamarine; */
+}
+
+.accordion-lists ul.active {
+    max-height: 200px;
+}
+
+.accordion-lists li:not(:first-child) {
+    font-weight: 400;
+    margin-left: 1.2rem;
+}
+
+.accordion-lists li i {
+    font-size: .8rem;
+    font-weight: 700;
+    margin-right: 8px;
+    transition: all .3s linear;
+}
+/* .rotate{
+transform: rotate(90deg);
+} */
+
+ul.active li>i{
+    transform: rotate(90deg);
+}
+ul.active li:first-of-type{
+    color: red;
 }
