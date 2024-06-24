@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post">
+        <label for="">
+            <h1>My feedback form</h1>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </li>
+                <br>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </li>
+                <br>
+                <li>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </li>
+                <br>
+                <li>
+                    <label for="">Please check all the emotions that apply to you:</label>
+                    <ul type="disc">
+                        <li>
+                            <label for="angry">Angry</label>
+                            <input type="checkbox" name="emotion" id="angry">
+                        </li>
+                        <li>
+                            <label for="sad">Sad</label>
+                            <input type="checkbox" name="emotion" id="sad">
+                        </li>
+                        <li>
+                            <label for="happy">Happy</label>
+                            <input type="checkbox" name="emotion" id="happy">
+                        </li>
+                        <li>
+                            <label for="ambi">Ambivalent</label>
+                            <input type="checkbox" name="emotion" id="ambi">
+                        </li>
+                    </ul>
+                    <br>
+                </li>
+                <li>
+                    <label for="">How satisfied were you with our service?</label>
+                    <ul type="disc">
+                        <li>
+                            <label for="very">Very satisfied</label>
+                            <input type="radio" name="satisfied" id="very">
+                        </li>
+                        <li>
+                            <label for="satis">Satisfied</label>
+                            <input type="radio" name="satisfied" id="satis">
+                        </li>
+                        <li>
+                            <label for="didnt">Didn't care</label>
+                            <input type="radio" name="satisfied" id="didnt">
+                        </li>
+                        <li>
+                            <label for="dissas">Dissatisfied</label>
+                            <input type="radio" name="satisfied" id="dissas">
+                        </li>
+                        <li>
+                            <label for="very dis">Very dissatisfied</label>
+                            <input type="radio" name="satisfied" id="very dis">
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <label for="">Further comments:</label>
+                    <textarea name="" id="" cols="25" rows="2"></textarea>    
+                </li>
+                <br>
+                <li>
+                    <label for="bio">Bio photo:</label>
+                    <input type="text" name="bio photo" id="bio">
+                    <input type="file" accept="image/*"> 
+                </li>
+                <br>
+                <li>
+                    <label for="citys">Location visited:</label>
+                    <select name="citys" id="citys" multiple size="1">
+                        <option value="2">Select location</option>
+                        <option value="2">New York</option>
+                        <option value="3">Berlin</option>
+                        <option value="4">Tokio</option>
+                        <option value="5">Moscow</option>
+                        <option value="6">Baku</option>
+                        <option value="7">London</option>
+                    </select>
+                </li>
+                <br>
+            </ul>
+            <li>
+                <input type="submit">
+            </li>
+        </label>
+    </form>
+    <br>
+    <br>
+    
+    <form method="post"> 
+        <fieldset>
+            <legend>Personal Details</legend>
+            <span>Situation</span>
+            <br>
+            <select name="" id="">
+                <option value="0">--None--</option>
+                <option value="1">--None--</option>
+                <option value="2">--None--</option>
+                <option value="3">--None--</option>
+                <br>
+            </select>
+            <br>
+            <br>
+            <label for="ad">First name:</label>
+            <input type="text" id="ad">
+            <br>
+            <br>
+            <label for="soyad">Last name:</label>
+            <input type="text" id="soyad">
+            <br>
+            <br>
+
+            <span>Gender:</span>
+    
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="birth">Date of Birth:</label>
+            <input type="date" id="birth">
+            <br>
+            <br>
+            <span>Adress:</span>
+            <br>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+            <br>
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+    <form method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="usr">Username*</label>
+            <br>
+            <input type="text" id="usr">
+            <br>
+            <label for="passw">Password*</label>
+            <br>
+            <input type="password" id="passw">
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="man">
+            <label for="man">Male</label>
+            <input type="radio" name="gender" id="woman">
+            <label for="woman">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Pogramming Skills</legend>
+            <input type="checkbox">
+            <label for="">Java</label>
+            <input type="checkbox" checked>
+            <label for="">C++</label>
+            <input type="checkbox">
+            <label for="">C#</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fruit</legend>
+            <span>Choose fruit:</span>
+            <select name="" id="">
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+                <option value="">Banana</option>
+            </select>
+        </fieldset>
+        <br>
+        <textarea name="" id="" cols="110" rows="10" placeholder="Enter your comment here..."></textarea>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    <br>
+    <br>
+
+    <h3>Complex Form</h3>
+<form method="post">
+    <table>
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                <br>
+                <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                <br>
+                <br>
+                    <label for="Phone">Phone:</label>
+                    <input type="number" id="Phone">
+                <br>
+                <br>
+                <label for="birth">Date of Birth</label>
+                <input type="date" id="birth">
+                <br>
+                <br>
+                <span>Gender:</span>
+        
+                <input type="radio" name="cins" id="kisi">
+                <label for="kisi">Kishi</label>
+                <input type="radio" name="cins" id="qadin">
+                <label for="qadin">Qadin</label>
+                <br>
+                <br>
+                <span>Country</span>
+                        <select name="countrys" id="countrys">
+                            <option value="0">Japan</option>
+                            <option value="1">Moscow</option>
+                            <option value="2">Azerbaijan</option>
+                            <option value="3">Canada</option>
+                        </select>
+            </fieldset>
+        </form>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Adress</legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street">
+            <br>
+            <br>
+                <label for="city">City:</label>
+                <input type="text" id="city">
+            <br>
+            <br>
+                <label for="state">State:</label>
+                <input type="text" id="stade">
+            <br>
+            <br>
+                <label for="zip">Zip Code:</label>
+                <input type="number" id="zip">
+            </fieldset>
+        </form>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <label for="">Comments:</label>
+                <textarea name="" id="" cols="25" rows="2"></textarea>  
+                <label for="agree">I agree to the term of service</label>
+                <input type="checkbox" id="agree">
+            </fieldset>
+        </form>
+        <br>
+        <input type="submit">
+    </table>
+</form>
+<br>
+<br>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" value="Nazli"></td>
+        </tr>
+        <tr>
+            <td><p>Gender</p></td>
+            <td>
+                <label for="kish">Male</label>
+                <input type="radio" name="gender" id="kish">
+                <label for="qadn">Female</label>
+                <input type="radio" name="gender" id="qadn">
+            </td>
+        </tr>
+        <tr>
+            <td><p>Eye color</p></td>
+            <td>
+                <select name="" id="">
+                    <option value="0">green</option>
+                    <option value="1">blue</option>
+                    <option value="2">yellow</option>
+                    <option value="3">pink</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><p>Check all that apply</p></td>
+            <td>
+                <input type="checkbox" name="apply" id="tall">
+                <label for="tall">over 6 feet tall</label>
+                <br>
+                <input type="checkbox" name="apply" id="fat">
+                <label for="fat">over 200 pounds</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>Describe your ability:</p>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Send all information">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+
+<video width="500" height="300" autoplay muted loop controls controlsList="nodownload nofullscreen" oncontextmenu="return false;">
+    <source src="./assets/video/video_2022-10-15_09-31-03.mp4" type="video/mp4">
+</video>
+<br>
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9LOnlpATOs?si=mEjY0XxZmJ_iXH1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3BJe4B8zGnqEdQPMvfVjuS?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</body>
+</html>
