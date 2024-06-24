@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <pre>                                          A test table with marged cells
+        <table border="1" width="50%" rules="all">
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red
+    eyes
+                    </th>
+                </tr>
+                <tr>
+                    <th>height</th>
+                    <th>weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Males</th>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <th>Females</th>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+            </tbody>
+        </table>
+    </pre>
+    <br>
+    <br>
+    
+    <table border="1" width="50%" rules="all">
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">r1c1</td>
+                <td>r1c3</td>
+                <td rowspan="2">r1c4</td>
+                <td rowspan="2" colspan="2">r1c5</td>
+            </tr>
+            <tr>
+                <td colspan="2">r3c1</td>
+                <td rowspan="2">r2c3</td>
+                <td colspan="2">r3c4</td>
+                <td>r3c6</td>
+            </tr>
+            <tr>
+                <td>r4c1</td>
+                <td colspan="2">r4c2</td>
+                <td rowspan="2">r4c4</td>
+                <td colspan="2">r4c5</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">r5c1</td>
+                <td rowspan="2">r5c3</td>
+                <td>r6c3</td>
+                <td rowspan="2" colspan="2">r5c5</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    
+    <table border="1" width="50%" cellpadding="10" >
+        <thead>
+            <tr>
+                <th colspan="6">
+                    <h2>Time Table</h2>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    <h2>LUNCH</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Scince</td>
+                <td>Maths</td>
+                <td>Scince</td>
+                <td>Maths</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    
+    <form method="post">
+        <label for="">
+            <h1>My feedback form</h1>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </li>
+                <br>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </li>
+                <br>
+                <li>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password">
+                </li>
+                <br>
+                <li>
+                    <label for="">Please check all the emotions that apply to you:</label>
+                    <ul type="disc">
+                        <li>
+                            <label for="angry">Angry</label>
+                            <input type="checkbox" name="emotion" id="angry">
+                        </li>
+                        <li>
+                            <label for="sad">Sad</label>
+                            <input type="checkbox" name="emotion" id="sad">
+                        </li>
+                        <li>
+                            <label for="happy">Happy</label>
+                            <input type="checkbox" name="emotion" id="happy">
+                        </li>
+                        <li>
+                            <label for="ambi">Ambivalent</label>
+                            <input type="checkbox" name="emotion" id="ambi">
+                        </li>
+                    </ul>
+                    <br>
+            
+                </li>
+                <li>
+                    <label for="">How satisfied were you with our service?</label>
+                    <ul type="disc">
+                        <li>
+                            <label for="very">Very satisfied</label>
+                            <input type="radio" name="satisfied" id="very">
+                        </li>
+                        <li>
+                            <label for="satis">Satisfied</label>
+                            <input type="radio" name="satisfied" id="satis">
+                        </li>
+                        <li>
+                            <label for="didnt">Didn't care</label>
+                            <input type="radio" name="satisfied" id="didnt">
+                        </li>
+                        <li>
+                            <label for="dissas">Dissatisfied</label>
+                            <input type="radio" name="satisfied" id="dissas">
+                        </li>
+                        <li>
+                            <label for="very dis">Very dissatisfied</label>
+                            <input type="radio" name="satisfied" id="very dis">
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    
+    
+                    <label for="">Further comments:</label>
+                    <textarea name="" id="" cols="25" rows="2"></textarea>    
+                </li>
+                <br>
+                <li>
+                    <label for="bio">Bio photo:</label>
+                    <input type="text" name="bio photo" id="bio">
+                    <input type="file" accept="image/*"> 
+                </li>
+                <br>
+                <li>
+                    <span>Location visited</span>
+                    <select name="" id="">
+                        <option value="0">Baku</option>
+                        <option value="1">Ganga</option>
+                        <option value="2">Guba</option>
+                        <option value="3">Lenkaran</option>
+    
+                    </select>
+                </li>
+                <br>
+                
+            </ul>
+            <li>
+                <input type="submit">
+            </li>
+        </label>
+    </form>
+    <br>
+    <br>
+
+    <table border="1">
+        <thead>
+            <tr style="background-color: blueviolet;">
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Sex</label></td>
+                <td>
+                    <label for="gende">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gende">Female</label>
+                    <input type="radio" name="gender" id="gender">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
